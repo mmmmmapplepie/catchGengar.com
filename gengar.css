@@ -1,0 +1,139 @@
+.div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  background-color: rgb(26, 0, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 200px;
+}
+
+#playground {
+  position: relative;
+  width: 1000px;
+  height: 750px;
+  margin: 0px;
+  border: 10px solid;
+  border-radius: 10px;
+  margin-top: 115px;
+  border-image: linear-gradient(38deg, rgb(255, 58, 255), rgb(5, 13, 156), rgb(0, 54, 91),rgb(2, 0, 24))  1;
+  background: linear-gradient(142deg, rgb(2, 0, 24), rgb(4, 0, 65)30%, rgb(6, 0, 85), rgb(7, 0, 107) 50%, rgb(6, 0, 85), rgb(4, 0, 65) 70%, rgb(2, 0, 24));
+  background-size: 400% 400%;
+  animation: TheFog 15s ease infinite;
+  padding: 120px 160px;
+}
+
+@keyframes TheFog {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+.difficulty_setting {
+  position:fixed;
+  background: none;
+  border: 10px solid;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-image: linear-gradient(to top, rgb(168, 0, 168), rgb(0, 56, 145)) 1;
+  top: 20px;
+  left: 20px;
+  height: 75px;
+  width: 210px;
+  font-size: 35px;
+}
+
+.dropdowndifficulty {
+  background-color:  rgb(168, 0, 168)   ;
+  border: none;
+  font-weight: bold;
+}
+
+.score {
+  display: flex;
+  color: white;
+  position: absolute;
+  top:20px;
+  right:220px;
+  font-size: 35px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 150px;
+  border: 10px solid;
+  border-image: linear-gradient(to top, rgb(168, 0, 168), rgb(0, 56, 145)) 1;
+  padding: 0px 20px;
+
+}
+
+.timer {
+  display: flex;
+  color: white;
+  position: absolute;
+  top:20px;
+  right:450px;
+  font-size: 35px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 250px;
+  border: 10px solid;
+  border-image: linear-gradient(to top, rgb(168, 0, 168), rgb(0, 56, 145)) 1;
+  padding: 0px 20px;
+}
+
+
+
+.start {
+  display: flex;
+  cursor: pointer;
+  background-color: rgb(26, 0, 51);
+  color: white;
+  position: absolute;
+  padding: 0px;
+  top:435px;
+  right:50px;
+  font-size: 80px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 300px;
+  border: 10px solid;
+  border-image: linear-gradient(to top, rgb(168, 0, 168), rgb(0, 56, 145)) 1;
+}
+
+.start:hover {
+  background-color: rgba(0, 47, 255, 0.3);
+  transition: background-color 0.3s;
+}
+
+.gengar {
+  position: absolute;
+  width: 160px;
+  aspect-ratio: 4/3;
+}
+
+.pokeball {
+  position: absolute;
+  width: 60px;
+  aspect-ratio: 4/3;
+}
+
+
+
+
+
+
